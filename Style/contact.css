@@ -1,0 +1,48 @@
+/* Additional styles specific to the Contact page */
+
+/* Contact section */
+#contact {
+    padding: 50px 0;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    margin-bottom: 30px;
+}
+
+/* Contact form styles */
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
